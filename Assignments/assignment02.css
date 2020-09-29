@@ -2,70 +2,70 @@
 
 
 
-.igottabeme {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.classy {
- margin-left: 10px; 
-}
-
-.d1, .d2, .d3 {
- margin-bottom: 50px; 
-}
-
-.a, .b, .c {
- width: 100px;
- height: 50px;
- padding-top: 5px;
- padding-bottom: 5px;
- padding-right: 20px;
- padding-left: 20px; 
- border-style: solid;
- border-color: blue; 
- border-width: 5px;
- background-color: yellow;
-}
-
-.b {
- display: block; 
-}
-
-.c {
-  display: inline-block; 
-}
-
-img[alt="cat icon"] {
-  position: fixed;
-  bottom: 0px;
-  right: 0px;
-}
-
-img[alt="dog icon"] {
- padding-right: 50px;
- padding-bottom: 150px; 
-}
-
-img[alt="bird icon"] {
- padding-top: 50px;
- padding-left: 250px;
- position: inline;
-}
-
-div.positionMe {
- background-color: orange;
- z-index = -1;
-}
-
 body {
- background-color: skyblue; 
+  background-color:skyblue;
+}
+
+#igottabeme {
+  font-family: arial, helvetica, sans-serif; 
+}
+
+.classy{
+  margin-left: 10px;
+}
+
+div {
+  margin-bottom: 50px;
+}
+
+span {
+  width: 100px;
+  height: 50px;
+  padding: 5px 20px;
+  border: 5px solid blue;
+  background-color: yellow;
+}
+
+span.a {
+  display: inline;
+}
+
+span.b{
+  display: block;
+}
+
+span.c{
+  display: inline-block;
+}
+
+img[alt = "cat icon"]{
+  position: fixed; 
+  bottom: 0px; right: 0px;
+}
+
+img[alt = "dog icon"]{
+  position: relative;
+  right: 50px;
+  bottom: 150px; 
+}
+#positionMe{
+  position: relative;
+  background-color: orange;
+}
+div > img{
+  position: absolute;
+  top: 50px;
+  left: 250px;
 }
 
 nav {
- position: fixed;
- background-color: green;
- padding: 5px;
- font-size: 20px; 
+  background-color: green;
+  opacity: 90%;
+  padding: 5px;
+  font-size: 20px;
+  overflow: hidden;
+  position: sticky;
+  top: 0px;
 }
 
 /* external css is imported into html using the <link> tag in the <head> section, as shown below.
