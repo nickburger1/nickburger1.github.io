@@ -1,6 +1,4 @@
-/* --- put your css here --- */ 
-
-
+/*Start of Part A */
 
 body {
   background-color:skyblue;
@@ -18,11 +16,18 @@ div {
   margin-bottom: 50px;
 }
 
+/* End of Part A and Start of Part B */
+
 span {
   width: 100px;
   height: 50px;
-  padding: 5px 20px;
-  border: 5px solid blue;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
   background-color: yellow;
 }
 
@@ -37,6 +42,8 @@ span.b{
 span.c{
   display: inline-block;
 }
+
+/* End of Part B and Start of Part C */
 
 img[alt = "cat icon"]{
   position: fixed; 
@@ -68,14 +75,7 @@ nav {
   top: 0px;
 }
 
-/* external css is imported into html using the <link> tag in the <head> section, as shown below.
-
-  <head>
-    <link rel="stylesheet" href="assignment02.css">
-  </head>
-
-*/
-
+/* End of My CSS */
 
 /* --- pre-existing css --- */
 .stripey tr:nth-child(even) {
