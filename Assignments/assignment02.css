@@ -51,7 +51,7 @@ img[alt="dog icon"] {
 img[alt="bird icon"] {
  padding-top: 50px;
  padding-left: 250px;
- z-index: 2;
+ position: inline;
 }
 
 div.positionMe {
