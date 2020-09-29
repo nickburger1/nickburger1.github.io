@@ -51,9 +51,10 @@ img[alt="dog icon"] {
 img[alt="bird icon"] {
  padding-top: 50px;
  padding-left: 250px;
+ z-index: 2;
 }
 
-.positionMe {
+div.positionMe {
  background-color: orange;
  z-index = -1;
 }
