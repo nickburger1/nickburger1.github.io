@@ -34,14 +34,13 @@ body {
 }
 
 .c {
-  display: inline; 
+  display: inline-block; 
 }
 
 img[alt=”cat icon”] {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
-  z-index: 99;
 }
 
 img[alt="dog icon"] {
