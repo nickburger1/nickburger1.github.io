@@ -61,6 +61,13 @@ body {
  background-color: skyblue; 
 }
 
+nav {
+ position: fixed;
+ background-color: green;
+ padding: 5px;
+ font-size: 20px; 
+}
+
 /* external css is imported into html using the <link> tag in the <head> section, as shown below.
 
   <head>
