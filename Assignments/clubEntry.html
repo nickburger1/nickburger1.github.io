@@ -42,11 +42,9 @@
 <!-- ClubMeNow custom JS -->
 <script src='clubMeNow.js'></script>
 <script>
-	// retrieve the row of the user-chosen club
+	
 	let clubRow = parseInt(localStorage.getItem('club'));
-	// retrieve the "clubs" array
 	let clubs = JSON.parse(localStorage.getItem('clubs'));
-	// display the full clubName of the user-chosen club
 	let newClubName ;
 	let newClubDistances;
 	
@@ -54,7 +52,6 @@
         // your code here
 	}
 	
-	// navigate to club distance LIST screen
     function cancelClub() {
 	    window.location.href = "clubDistanceList.html"; 
     }
