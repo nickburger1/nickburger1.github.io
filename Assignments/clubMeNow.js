@@ -1,27 +1,6 @@
-/* -------------------------------
-Functions in this app:
-clubDistanceList.html
-  loadClubDistances()
-  appendTableRows()
-  displayClubEntry()
-  displayClubDistanceEntryForm(c)
-  undoLastShot()
-  resetAllClubDistances()
-  displayAbout()
-  
-clubEntry.html
- 
-  addClub()
-  cancelClub()
-  
-clubDistanceEntry.html
-  populateStatsTable()
-  appendTapEntryButtons()
-    updateStats()
---------------------------------- */
 
 
-// ----- Functions (clubDistanceList.html) -----
+// Functions (clubDistanceList.html) 
 
 
 function loadClubDistances() {
@@ -112,7 +91,7 @@ function displayPenaltyInfo() {
 	window.location.href = "clubPenaltyInfo.html";
 }
 
-// ----- Functions (clubDistanceEntry.html) -----
+// Functions (clubDistanceEntry.html) 
 
 function populateStatsTable() {
 	document.getElementById('cmn_club').innerHTML = '<strong>' + clubs[clubRow][1] + '</strong>'; 
