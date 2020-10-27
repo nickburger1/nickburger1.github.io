@@ -73,11 +73,9 @@
 <!-- ClubMeNow custom JS -->
 <script src='clubMeNow.js'></script>
 <script>
-	// retrieve the row of the user-chosen club
+	
 	let clubRow = parseInt(localStorage.getItem('club'));
-	// retrieve the "clubs" array
 	let clubs = JSON.parse(localStorage.getItem('clubs'));
-	// display the full clubName of the user-chosen club
 	document.getElementById('clubValLbl').innerHTML 
 		= '&nbsp;' + clubs[clubRow][2] + '&nbsp;' ; 
 </script>
