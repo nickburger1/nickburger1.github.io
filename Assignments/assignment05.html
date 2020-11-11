@@ -1,1 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Bare - Start Bootstrap Template</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Kyle Szostek's Student Home Page</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://kylemszostek.github.io/">Github Pages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://webp.svsu.edu/~kmszoste/index.html">mDrive</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://csis.svsu.edu/~kmszoste/">CSIS Server</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h2>Example Chart using Chart.js</h2>
+  <canvas id="myChart"></canvas>
+  
+  <h2>Example AJAX call to Covid19api</h2>
+  <button type="button" onclick="loadContent()">Load Covid-19 Content</button>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- ChartJS: https://www.chartjs.org/ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.min.js"></script>
+
+<!-- Lodash: https://lodash.com/ -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
+
+<!-- Day.js: https://day.js.org/docs/en/installation/browser -->
+<script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+<script>
+  dayjs().format();
+
+</script>
+<script type="text/javascript" src="Covid19API.js"></script>
+
+</body>
+
+</html>
