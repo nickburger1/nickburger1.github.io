@@ -89,12 +89,12 @@ function loadContent() {
         && this.status == 200) {
       
       if (!localStorage.getItem("Covid"))
-        localStorage.setItem("Covid", this.responseText);
+      localStorage.setItem("Covid", this.responseText);
       covidJson = localStorage.getItem("Covid");
       covidJsObj = JSON.parse(covidJson);
       newConfirmedOver1000 = [];
       
-	    for (let c of covidJsObj.Countries) {
+for (let c of covidJsObj.Countries) {
         if (c.TotalDeaths > 50000) {
           newConfirmedOver1000.push({ 
             "Slug": c.Slug, 
