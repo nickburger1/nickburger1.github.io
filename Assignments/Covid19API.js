@@ -87,8 +87,6 @@ function loadContent() {
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 
         && this.status == 200) {
-      //document.getElementById("nice").innerHTML = this.responseText;
-      //perhaps to set time stackoverflow is making suggestions to use setInterval
       
       if (!localStorage.getItem("Covid"))
         localStorage.setItem("Covid", this.responseText);
